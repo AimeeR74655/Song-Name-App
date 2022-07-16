@@ -18,13 +18,13 @@ body
 
 canvas
 {
-    border: 5px solid lightcyan;
+    border:5px solid white;
     border-radius: 20px;
 }
 
-.name_button
+.play_button
 {
-    width: 150px;
+    width: 200px;
     font-size: 25px;
 }
 
