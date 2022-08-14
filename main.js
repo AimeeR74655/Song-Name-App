@@ -41,9 +41,9 @@ function draw()
     dora_song.stop();
     console.log("Birthday song is now playing")
     }
-    else(scoreRightWrist>0.2)
+    if(scoreRightWrist>0.2)
     {
-    circle(rightWristX,rightWristY,20);
+    circle(rightWristX, rightWristY,20);
     dora_song.isPlaying();
     bday_song.stop();
     console.log("Dora song is now playing")
